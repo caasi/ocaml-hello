@@ -8,3 +8,8 @@
   (modules world)
   (libraries hello)
   (public_name world))
+
+(test
+  (modules test)
+  (libraries alcotest hello)
+  (name test))

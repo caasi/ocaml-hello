@@ -22,6 +22,7 @@
   (synopsis "Another hello world example")
   (description "Hello, World!")
   (depends
+    (alcotest :with-test)
     (ocaml
       (>= 4.02.3))
     dune))
